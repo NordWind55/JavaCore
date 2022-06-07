@@ -1,2 +1,7 @@
-package Lesson3;public class MyArraySizeException {
+package lesson3;
+
+public class MyArraySizeException extends Exception {
+    public MyArraySizeException(String message) {
+        super(message);
+    }
 }

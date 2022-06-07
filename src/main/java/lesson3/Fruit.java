@@ -1,2 +1,10 @@
-package Lesson3;public class Fruit {
+package lesson3;
+
+public class Fruit {
+    private float weight;
+
+    public Fruit(float weight){
+        this.weight=weight;
+    }
 }
+
